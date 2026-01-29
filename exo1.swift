@@ -1,5 +1,5 @@
-func checkNum(num: int) -> String {
-    let check: int = num % 2
+func checkNum(num: Int) -> String {
+    let check: Int = num % 2
     if check == 0{
         return "paire"
     } else {
