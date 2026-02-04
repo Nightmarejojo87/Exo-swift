@@ -1,12 +1,12 @@
-func compare(a: Int, b: Int) -> String {
+func compare(a: Int, b: Int) -> Int? {
     if a > b{
-        return "\(a)"
+        return a
     }else if a < b{
-        return "\(b)"
+        return b
     } else {
-        return "les deux valeurs sont identiques"
+        return nil
     }
 }
 
-var result: String = compare(a: 123, b: 12)
+var result: Int? = compare(a: 123, b: 12)
 print(result)
